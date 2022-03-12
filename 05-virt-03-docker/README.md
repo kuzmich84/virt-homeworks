@@ -2,7 +2,7 @@
 
 ### Задача 1
 
-Ссылка на репозиторий: https://hub.docker.com/r/dmitrykuchukov/nginx-netology/tags  
+Ссылка на репозиторий: https://hub.docker.com/r/dmitrykuchukov/nginx-netology/tags.  
 
 ### Задача 2
 
