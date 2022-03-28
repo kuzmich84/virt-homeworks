@@ -35,7 +35,7 @@ $ docker cp test_dump.sql bd36a47c1deb:/var/lib/backup
 
 Создаем БД и делаем импорт test_dump.sql
 
-mysql> CREATE DATABESE testdb;
+mysql> CREATE DATABASE testdb;
 mysql> use testdb
 Database changed
 mysql> source /var/lib/backup/test_dump.sql 
