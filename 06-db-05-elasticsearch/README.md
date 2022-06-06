@@ -43,7 +43,7 @@ EXPOSE 9200 9300
 - ссылка на образ в репозитории dockerhub
 
 ```shell
-https://hub.docker.com/r/kuzmich84/my-elastic-image
+https://hub.docker.com/r/kuzmich84/my-elastic-image-repo
 ```
 
 - ответ `elasticsearch` на запрос пути `/` в json виде:
@@ -80,11 +80,21 @@ https://hub.docker.com/r/kuzmich84/my-elastic-image
 
 Получите список индексов и их статусов, используя API и **приведите в ответе** на задание.
 
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+
 Получите состояние кластера `elasticsearch`, используя API.
+
+![img_3.png](img_3.png)
 
 Как вы думаете, почему часть индексов и кластер находится в состоянии yellow?
 
+Yellow статус означает, что существует риск потери данных, если с шардами что-то пойдет не так. 
+Так как в нашем случае не хватает количества реплик. 
+
 Удалите все индексы.
+
+![img_4.png](img_4.png)
 
 **Важно**
 
@@ -104,19 +114,35 @@ https://hub.docker.com/r/kuzmich84/my-elastic-image
 
 **Приведите в ответе** запрос API и результат вызова API для создания репозитория.
 
+![img_6.png](img_6.png)
+
 Создайте индекс `test` с 0 реплик и 1 шардом и **приведите в ответе** список индексов.
+
+![img_7.png](img_7.png)
+![img_15.png](img_15.png)
+
 
 [Создайте `snapshot`](https://www.elastic.co/guide/en/elasticsearch/reference/current/snapshots-take-snapshot.html) 
 состояния кластера `elasticsearch`.
 
+![img_8.png](img_8.png)
+
 **Приведите в ответе** список файлов в директории со `snapshot`ами.
 
+![img_9.png](img_9.png)
+
 Удалите индекс `test` и создайте индекс `test-2`. **Приведите в ответе** список индексов.
+
+![img_10.png](img_10.png)
+![img_12.png](img_12.png)
 
 [Восстановите](https://www.elastic.co/guide/en/elasticsearch/reference/current/snapshots-restore-snapshot.html) состояние
 кластера `elasticsearch` из `snapshot`, созданного ранее. 
 
 **Приведите в ответе** запрос к API восстановления и итоговый список индексов.
+
+![img_13.png](img_13.png)
+![img_14.png](img_14.png)
 
 Подсказки:
 - возможно вам понадобится доработать `elasticsearch.yml` в части директивы `path.repo` и перезапустить `elasticsearch`
