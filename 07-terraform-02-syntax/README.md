@@ -63,7 +63,7 @@ Terraform will perform the following actions:
                     shell: /bin/bash
                     sudo: ['ALL=(ALL) NOPASSWD:ALL']
                     ssh_authorized_keys:
-                      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDcH0vY43QB4y0ApzyW3HtfhzWP3fNyEVdRqJt6IiR1tZlYE/OC2GxTLaHvmt97oF9Kw5IuUWNvpJqn/i2JQitWsJaqIrZNifFns4/cFMF5ZxR2leM9fewWRiPto+8bnKWNSsrgiW08QE8S9HMZI3qn8Rvvj1r/Fcjnv4xlyXJE8gKci1ezhwXuuqWyrYSAk2SfCYCxPLSMjwS+vPkpDwrEgmB5zCsY/OTZ6jp0k1ukovhCLVpE98XelRni65HzjeOxCq++a8ktcYEw4pTPmwddiyxXmB+ikdakDZ+zBv/eDs5OCBvzsgI7rdHtORIjrXURcH1EHSjhkTPc+ZtSnuL4kk7EwQWX5oZ9j+Zk8ESUpjtYJIk/m9KJWcZ0pLrQibw8aDkGpsOYPvqUGbUejMTth7GSjTNXHXuSzo2eiQDuG3iIFtfpKO32UglkfbmxuLUmtwr7cWysR10l5xACAN+Nn5DYVXGqPFYlG14yOrFWd5mnGrw+3HXTYvjMQQrEfqcqaJ8jb52jX27EQoqZNSslstTRWnlr0Ob8lVzsodk6P27ZOCM580c/4UQFCXzzF/c4rLn0M/RFna0qdam/Zp97fB5m4t+n87LeaqJOpYJhFmHHhnsavU4N/a6QmYoaCU0c7kzLxv6UaqHHIi/V52n6yMKZTo9aCadSOu2fJrbGYQ== kudim@inbox.ru
+                      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDcH0vY43QB4y0ApzyW3HtfhzWP3fNyEVdRqJt6IiR1tZlYE/OC2GxTLaHvmt97oF9Kw5IuUWNvpJqn/i2JQitWsJaqIrZNifFns4/cFMF5ZxR2leM9fewWRiPto+8bnKWNSsrgiW08QE8S9HMZI3qn8Rvvj1r/Fcjnv4xlyXJE8gKci1ezhwXuuqWyrYSAk2SfCYCxPLSMjwS+vPkpDwrEgmB5zCsY/OTZ6jp0k1ukovhCLVpE98XelRni65HzjeOxCq++a8ktcYEw4pTPmwddiyxXmB+ikdakDZ+zBv/eDs5OCBvzsgI7rdHtORIjrXURcH1EHSjhkTPc+ZtSnuL4kk7EwQWX5oZ9j+Zk8ESUpjtYJIk/m9KJWcZ0pLrQibw8aDkGpsOYPvqUGbUejMTth7GSjTNXHXuSzo2eiQDuG3iIFtfpKO32UglkfbmxuLUmtwr7cWysR10l5xACAN+Nn5DYVXGqPFYlG14yOrFWd5mnGrw+3HXTYvjMQQrEfqcqaJ8jb52jX27EQoqZNSslstTRWnlr0Ob8lVzsodk6P27ZOCM580c/4UQFCXzzF/c4rLn0M/RFna0qdam/Zp97fB5m4t+n87LeaqJOpYJhFmHHhnsavU4N/a6QmYoaCU0c7kzLxv6U== kudim@inbox.ru
                 
                 
             EOT
