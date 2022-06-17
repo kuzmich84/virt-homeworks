@@ -41,6 +41,9 @@ for this configuration.
 7. При желании поэкспериментируйте с другими параметрами и рессурсами.
 
 В виде результата работы пришлите:
+
+* Ссылка на файлы: https://github.com/kuzmich84/07-terraform-03-basic
+
 * Вывод команды `terraform workspace list`.:
 ```shell
 dmitry@dmitry-N56VZ:~/yandex-cloud-terraform/hometask$ terraform workspace list
